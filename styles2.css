@@ -80,35 +80,37 @@ div#essai {
   position: absolute;
   top: 110px;
 
+
 }
 /* grid---------------------------------------------------------------------------------------------*/
 /*.first { grid-area: 1 / 1 / 2 / 2;
 }
 
 .div2 { grid-area: 1 / 2 / 2 / 3;
-  width: 50%;
+  width: 100%;
+  
  }
 .second { grid-area: 2 / 1 / 3 / 2; 
 }
 
 .div4 { grid-area: 2 / 2 / 3 / 3; 
-  width: 50%;
+  width: 100%;
 }
 
 .third { grid-area: 3 / 1 / 4 / 2;
  }
 .div6 { grid-area: 3 / 2 / 4 / 3; 
-  width: 50%;}
+  width: 100%;}
 
 .fourth { grid-area: 4 / 1 / 5 / 2; 
 }
 .div8 { grid-area: 4 / 2 / 5 / 3;
-  width: 50%; }
+  width: 100%; }
 
 .fifth { grid-area: 5 / 1 / 6 / 2; 
 }
 .div10 { grid-area: 5 / 2 / 6 / 3;
-  width: 50%; }
+  width: 100%; }
 
 .sixth { grid-area: 6 / 1 / 7 / 2;
  }
@@ -118,8 +120,8 @@ div#essai {
 
 
 img.tof {
-  min-width: 100px;
-  max-width: 200px;
+  min-width: 80px;
+  max-width:180px;
   float: left;
   height: aspect-ration 1/1;
   border: 2px solid rgb(255, 255, 255);
