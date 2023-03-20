@@ -1,9 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
+  width: 100vw;
   overflow: hidden;
 }
 
@@ -37,22 +39,17 @@ span.navbar-toggler-icon {
   margin-left: 20px;
 }
 
-.container {
+.main{
+  width: 100vw;
   margin: 0;
   padding: 0;
-  width: 100%;
+  
 
 }
-
-.banner {
-  width: 1920px;
-
-}
-
-
-.banner img {
-  width: 100vw;
-  height: apect-ratio 1/1;
+.sat{
+  position: absolute;
+  right: 2vw;
+  top: 40vh;
 
 
 }
@@ -78,19 +75,14 @@ span.navbar-toggler-icon {
 
 }
 
-#essai {
+div#essai {
+  width: 50vh;
   position: absolute;
-  padding-left: 20px;
-  display: grid;
-  grid-template-columns: repeat (1fr, 2fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 5px;
   top: 110px;
 
 }
 /* grid---------------------------------------------------------------------------------------------*/
-.first { grid-area: 1 / 1 / 2 / 2;
+/*.first { grid-area: 1 / 1 / 2 / 2;
 }
 
 .div2 { grid-area: 1 / 2 / 2 / 3;
@@ -122,7 +114,7 @@ span.navbar-toggler-icon {
  }
 
  .div12 { grid-area: 6 / 2 / 7 / 3;
-  width: 50%; }
+  width: 50%; }*/
 
 
 img.tof {
@@ -130,18 +122,51 @@ img.tof {
   max-width: 200px;
   float: left;
   height: aspect-ration 1/1;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
+}
+.row.row-cols-2{
+  width: 100%;
+ 
+  
+}
+.col{
+ width: fit-content;
+ margin-bottom: 5px;
+ height: 100%;
+
+
+
 }
 
-p.essai {
-  width: fit-content;
-  text-align: left;
-  color: white;
-  font-size: 1.2em;
-  margin-bottom: 0;
-  padding-left: 10px;
+
+.contenu {
+width:30vw;
+text-align: left;
+ color: white;
+ font-size: 1.2em;
+ padding-left: 10px;
  
 
+}
+.container.text-center{
+  width: 50vw;
+  
+}
+
+@keyframes sat{
+  0%{
+    transform: translate(0px, 0px);
+    animation-timing-function:ease-in-out;
+  }
+  50%{
+    transform: translate( 200px, 200px);
+    animation-timing-function:ease-in-out;
+  }
+   100%{
+    transform: translate( 0px, 0px );
+    animation-timing-function:ease-in-out;
+   }
+   
 }
 
 @keyframes transition {
@@ -174,3 +199,33 @@ footer p {
   font-size: 1.2em;
   color: white;
 }
+
+@keyframes sat{
+  0%{
+    animation: translate(0px, 0px);
+    animation-timing-function:ease-in-out;
+  }
+  50%{
+    animation: translate( 20px, 20px);
+    animation-timing-function:ease-in-out;
+  }
+   100%{
+    animation: translate( 0px, 0px );
+    animation-timing-function:ease-in-out;
+   }
+   
+}
+@media screen and (max-width: 400px){
+  .astro{width: 50px;
+   height: aspect-ratio 1/1;
+ }
+ }
+@media screen and (max-width: 800px){
+.astro {
+  width: 200px;
+  height: aspect-ratio 1/1;
+}
+}
+  
+
+@

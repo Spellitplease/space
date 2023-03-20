@@ -15,9 +15,29 @@ anime.timeline({loop: false})
   });
   //&lt;![CDATA[
 
-jQuery(document).ready(function(){
 
-    $('#essai').hide(0).delay(5000).show(200);
-    });
     
     //]]&gt;
+  
+    anime.timeline({loop: false})
+    .add({
+      targets: '.sat',
+      scale: [0.1,2],
+      opacity: [1],
+      easing: "easeOutExpo",
+      duration: 40000,
+      delay: (el, i) => 0 * i
+    
+    });
+    //&lt;![CDATA[
+    
+    jQuery(document).ready(function(){
+
+      $('.main').hide(0).delay(10000).show(0);
+      });
+      
+      jQuery(document).ready(function(){
+
+        $('#essai').hide(0).delay(5000).show(5000);
+      });
+      
