@@ -8,106 +8,99 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Orbitron&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles2.css">
     <title>Document</title>
 </head>
 
 <body>
-   
-     
-            <nav class="navbar navbar-expand-lg bg-dark">
-                <div class="container-fluid">
-                    <img src="logo.png" alt="logo">
-                    <button class="navbar-toggler btn-color-#ffffff btn-bg-tertiary" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Infos</a>
-                            <a class="nav-link" href="contact.html">Contact</a>
+<!--- Barre de Navigation Bootstrap----------------------------------------------------------------------------->
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <img class="logo" src="logo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="https://www.solarsystemscope.com/">Explore</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
 
 
-                        </div>
-                    </div>
                 </div>
-            </nav>
+            </div>
+        </div>
+    </nav>
+    <!--- Fin barre NAV----------------------------------------------------------------------------------------------->
 
-            <div class="main">             
-                   
-                   <img src="outerspace.jpg" alt="espace">
-             <div class="sat">
-                            <img  class="astro" src="jump.png" alt="satellite">
-                        </div>
-                            <div id="essai" class="transition">
-                                
-                              <!--  <div class="grid-item first">
-                                    <img class="tof" src="1.jpg">
-                                </div>
-                                <div class="div2">
-                                 <p class="essai"> l'est beau mon satellite pis il est pas cher, il vient de Russie mais par contre il ne marche pas.</p>   
-                                </div>
-                                <div class="grid-item second">
-                                    <img class="tof" src="2.jpg">  
-                                </div>
-                                <div class="grid-item third">
-                                    <img class="tof" src="3.jpg">
-                                </div>
-                                <div class="grid-item fourth">
-                                    <img class="tof" src="4.jpg">
-                                </div>
-                                <div class="grid-item fifth">
-                                    <img class="tof" src="5.jpg">
-                                </div>
-                                <div class="grid-item sixth">
-                                    <img class="tof" src="6.jpg">
-                                </div>-->
-                                <div class="container text-center">
-                                    <div class="row row-cols-2">
-                                      <div class="col"><img class="tof" src="1.jpg"></div>
-                                      <div class="col contenu">Voir le dernier cliché de curiosity</div>
-                                      <div class="col"><img class="tof" src="2.jpg"> </div>
-                                      <div class="col contenu">Column</div>
-                                      <div class="col"><img class="tof" src="3.jpg"></div>
-                                      <div class="col contenu">Column</div>
-                                      <div class="col"><img class="tof" src="4.jpg"></div>
-                                      <div class="col contenu">Column</div>
-                                      <div class="col"><img class="tof" src="5.jpg"></div>
-                                      <div class="col contenu">Column</div>
-                                      <div class="col"><img class="tof" src="6.jpg"></div>
-                                      <div class="col contenu">Column</div>
-                                    </div>
-                                  </div>
-                            
-                        </div>
-                        <h1 class="ml15">
-                            <span class="word">Plus loin.</span>
-                            <span class="word">Et après ?</span>
-                        </h1>
-                        
-                    
-                    
-                </div>
-                
-            
-           
-        <footer>
-            <p class="final"> Copyright. Serial Coders Association. 2023</p>
-        </footer>
+    <div class="main">
+
+        <img src="outerspace.jpg" alt="espace">
+        <div class="sat">
+            <img class="transform" src="jump.png" alt="satellite">
+        </div>
+        <div id="essai" class="transition">
+            <table class="tableau">
+                <tr>
+                    <td><a href="*" id="search1"><img class="tof" src="1.jpg"></a></td>
+                    <td class="text">Voir le dernier cliché de curiosity</td>
+                </tr>
+                <tr>
+                    <td><img class="tof" src="2.jpg"></td>
+                    <td class="text">allons un peu plus loin!</td>
+                </tr>
+                <tr>
+                    <td><img class="tof" src="3.jpg"></td>
+                    <td class="text">Pourquoi ce tableau ne marche pas ?</td>
+                </tr>
+                <tr>
+                    <td><img class="tof" src="4.jpg"></td>
+                    <td class="text">Je vais y arriver c'est sûr!</td>
+                </tr>
+                <tr>
+                    <td><img class="tof" src="5.jpg"></td>
+                    <td class="text">Pourquoi ce tableau ne marche pas ?</td>
+                </tr>
+                <tr>
+                    <td><img class="tof" src="6.jpg"></td>
+                    <td class="text">Je vais y arriver c'est sûr!</td>
+                </tr>
+            </table>
+
+
+        </div>
+        <div id="content1">
+
+        </div>
+        <h1 class="ml15">
+            <span class="word">Plus loin.</span>
+            <span class="word">Et après ?</span>
+        </h1>
 
 
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        
-        <script src="main.js"></script>
-        
-           
-       
+    </div>
+
+
+
+    <footer>
+        <p class="final"> Copyright. Serial Coders Association. 2023</p>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script> 
+    <script src="main.js"></script>
+
+
+
 </body>
 
 </html>
