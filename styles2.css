@@ -81,6 +81,7 @@ body {
 
 div#essai {
   width: 50vh;
+  left: 10px;
   position: absolute;
   top: 80px;
 
@@ -107,6 +108,7 @@ table{
   width: 100%;
   opacity: 0;
   animation: transition 3s ease-in-out 4s forwards;
+  
 }
 tr{
   width: 100%;
@@ -119,6 +121,9 @@ td{ width:50%;
   font-size: 1.5em;
   
   
+}
+.text{
+  padding:5px;
 }
 
 @keyframes transform{

@@ -38,8 +38,9 @@ anime.timeline({loop: false})
       
    jQuery(document).ready(function(){
 
-        $('#essai').hide(0).delay(5000).show(5000);
+    $('#essai').hide(0).delay(5000).show(5000);
       });
+      //]]&gt;
 
 let searchButton1 = document.querySelector('#search1')
 let searchButton2 = document.querySelector('#search2')
